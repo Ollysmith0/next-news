@@ -1,0 +1,65 @@
+.main {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+
+  box-sizing: border-box;
+}
+
+.post {
+  width: 500px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post h1 {
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.post .publish {
+  font-size: 14px;
+  color: rgb(178, 178, 178);
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(178, 178, 178);
+  margin: 5px;
+  float: right;
+}
+
+.post a:hover {
+  color: black;
+  outline: 0.05px solid black;
+}
+
+.paginator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.paginator div {
+  margin: 25px;
+}
+
+.paginator .active {
+  cursor: pointer;
+}
+
+.paginator .disabled {
+  cursor: not-allowed;
+  color: rgb(179, 179, 179);
+}
